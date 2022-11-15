@@ -23,7 +23,7 @@ aside,
 footer {
   color: #000;
   border: 2px solid #400101;
-  border-style:unset;
+  border-style: unset;
   border-radius: 20px;
   margin: 2px;
   display: flex;
@@ -35,6 +35,7 @@ header {
   grid-area: header;
   height: 88px;
   background-color: #f3d3d4;
+  font-family: "La Belle Aurore", cursive;
 }
 img {
   width: 80px;
@@ -58,6 +59,10 @@ main {
   height: 340px;
   display: block;
   background-color: #bf7373;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: small;
+  padding: 25px;
+  letter-spacing: 0.5px;
 }
 aside {
   grid-area: aside;
@@ -101,10 +106,16 @@ dt {
 dd {
   border: 2px;
   margin: auto;
-  padding: 2px;
+  padding: 2px 2px 2px 2px;
+  text-align: justify;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: small;
 }
 .t2 {
   color: #f2e7ac;
+  font-family: cursive;
+  font-weight: lighter;
+  letter-spacing: 10px;
 }
 .libros {
   background-color: #b4b4b4;
